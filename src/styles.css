@@ -1,1 +1,299 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+Dusk Ahruna theme by Eyn/Click/licktorr, 2015
+*/
+
+body {
+	background-color: #000000;
+	margin: 0;
+	color: #606d78;
+}
+TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 8pt;
+}
+A {
+	COLOR: #008eed;
+	TEXT-DECORATION: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+	-moz-transition: 0.3s; /* Mozilla */
+	-o-transition: 0.3s; /* Opera */
+    -ms-transition: 0.3s; /* Internet Explorer */
+    transition-duration: 0.3s; /* Chrome */
+}
+A:hover {
+	COLOR: #45abff;
+	TEXT-DECORATION: none;
+	border-bottom: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #132333; /* #172737; */
+}
+A:focus {
+	COLOR: #80c6ff;
+	TEXT-DECORATION: none; 
+}
+.input {
+	BACKGROUND-COLOR: #090909;
+	COLOR: #008eed;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3f484f;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 8pt;
+	TEXT-DECORATION: none;
+	width: auto;
+	margin: 2px;
+	outline: none;
+	-webkit-transition-duration: 0.5s; /* Safari */
+	-moz-transition: 0.5s; /* Mozilla */
+	-o-transition: 0.5s; /* Opera */
+    -ms-transition: 0.5s; /* Internet Explorer */
+    transition-duration: 0.5s; /* Chrome */
+}
+
+#colorsetting, #class, #skill, #deftype, #slot, #signtype, #signname, #genchantment, #gquality, #creature_att, #class_att, #item_att, #enchant_att, #curseCurse_att, #curseBlessing_att, #curseBuff_att, #creature_def, #class_def, #item_def, #enchant_def, #curseCurse_def, #curseBlessing_def, #curseBuff_def, #type_filter {
+	BACKGROUND-COLOR: #090909;
+	COLOR: #008eed;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+		overflow: hidden;
+  background-image: url(assets/dusk/inputbutton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right -1px;
+}
+#colorsetting:hover, #class:hover, #skill:hover, #deftype:hover, #slot:hover, #signtype:hover, #signname:hover, #genchantment:hover, #gquality:hover {
+	background-color: #090909;
+	COLOR: #008eed;
+	border-color: #008eed;
+	border-style: dotted;
+	outline: none;
+}
+#colorsetting:focus, #class:focus, #skill:focus, #deftype:focus, #slot:focus, #signtype:focus, #signname:focus, #genchantment:focus, #gquality:focus {
+	background-color: #090909;
+	COLOR: #008eed;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+}
+
+.input[type=text]:hover {
+	background-color: #232323;
+	COLOR: #008eed;
+	border-color: #008eed;
+	border-style: dotted;
+	outline: none;
+}
+.input[type=text]:focus {
+	background-color: #131313; /*theme: #071019; */
+	COLOR: #008eed;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: inset inset 0 0 5px rgba(0,0,0,0.5);
+}
+.input[type=password]:hover {
+	width: auto;
+	background-color: #131313;
+	COLOR: #008eed;
+	border-color: #008eed;
+	border-style: dotted;
+	outline: none;
+}
+.input[type=password]:focus {
+	width: auto;
+	background-color: #131313;
+	COLOR: #008eed;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: inset inset 0 0 5px rgba(0,0,0,0.5);
+}
+.input[type=submit]:hover {
+	width: auto;
+	background-color: #002645;
+	COLOR: #0099ff;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+}
+.input[type=submit]:focus {
+	width: auto;
+	background-color: #131313;
+	COLOR: #80c6ff;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: inset inset 0 0 5px rgba(0,0,0,0.5);
+}
+.input[type=button]:hover {
+	width: auto;
+	background-color: #002645;
+	COLOR: #0099ff;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+}
+.input[type=button]:focus {
+	width: auto;
+	background-color: #090909;
+	COLOR: #80c6ff;
+	border-color: #3f484f;
+	border-style: solid;
+	outline: none;
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: inset inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+A.menu {
+	COLOR: #606d78;
+	TEXT-DECORATION: none;
+	border: none;
+	background: transparent url('assets/dusk/e_dot.gif'); 
+	-webkit-transition-duration: 0.3s; /* Safari */
+	-moz-transition: 0.3s; /* Mozilla */
+	-o-transition: 0.3s; /* Opera */
+    -ms-transition: 0.3s; /* Internet Explorer */
+    transition-duration: 0.3s; /* Chrome */
+}
+A.menu:hover {
+	COLOR: #008eed;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+	border: none;
+	background: transparent url('assets/dusk/e_dot2.gif'); 
+}
+A.menu:focus {
+	COLOR: #80c6ff;
+	TEXT-DECORATION: none;
+	border: none; 
+}
+A.menu_phone {
+	COLOR: #606d78;
+	TEXT-DECORATION: none;
+	border: none;
+	background: transparent url('assets/dusk/e_dot.gif');
+	-webkit-transition-duration: 0.3s; /* Safari */
+	-moz-transition: 0.3s; /* Mozilla */
+	-o-transition: 0.3s; /* Opera */
+	-ms-transition: 0.3s; /* Internet Explorer */
+	transition-duration: 0.3s; /* Chrome */
+	line-height: 2;
+}
+A.menu_phone:hover {
+	COLOR: #008eed;
+	TEXT-DECORATION: none;
+	font-weight: normal;
+	border: none;
+	background: transparent url('assets/dusk/e_dot2.gif');
+}
+A.menu_phone:focus {
+	COLOR: #80c6ff;
+	TEXT-DECORATION: none;
+	border: none;
+}
+.title {
+	color: #008eed; 
+	font-weight: bold;
+}
+
+.head {
+	color: #3f484f;
+	font-size: 9;
+}
+.header {
+ border: none;
+}
+.header a:hover {
+ border: none;
+}
+.line {
+	color: #3f484f;
+    border-style: dashed;
+	border-width: 1px;
+}
+
+.iframeline {
+    border-style: dashed;
+	border-width: 1px;
+	border-color: #3f484f;
+}
+
+.titleline {
+	border-width: 0;
+	border-bottom-width: 1px;
+    border-style: dashed;
+	border-bottom-color: #3f484f;
+}
+
+.top {
+	color: #008eed;
+}
+
+.alert {
+	color: #008eed;
+}
+
+.arrow {
+	color: #008eed;
+}
+.extratop {
+	color: #008eed;
+}
+.popup {
+	background-color: #000;
+	border-width: 1px;
+	border-color: #008eed;
+	border-style: solid;
+	z-index: 21;
+	opacity: 1.0;
+	max-width: 35%;
+ 	max-height: 65%;
+ 	margin-left: 22%;
+}
+.popup:hover {
+	background-color: #000;
+	border-width: 1px;
+	border-color: #008eed;
+	border-style: solid;
+	z-index: 21;
+	opacity: 1.0;
+	max-width: 35%;
+ 	max-height: 65%;
+ 	margin-left: 22%;
+}
+
+.msg {
+width: 13em;
+word-wrap:break-word;
+}
+
+.msgc {
+word-wrap:break-word;
+}
+
+.maptxt {
+	background-color: #000;
+}
+
+#popup-cover {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#000;
+    opacity:0.25;
+    width: 100%;
+    height: 100%;
+}
