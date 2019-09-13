@@ -1,0 +1,11 @@
+
+<p>mid-content works!</p>
+
+<button (click)="onClick()">SwitchContent</button>
+
+<div *ngIf="helpShown">
+    <app-help-content></app-help-content>
+</div>
+<div *ngIf="helpShown==false">
+    <app-normal-content></app-normal-content>
+</div>
