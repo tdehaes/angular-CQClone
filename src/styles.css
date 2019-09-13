@@ -154,7 +154,7 @@ A:focus {
 	box-shadow: inset inset 0 0 5px rgba(0,0,0,0.5);
 }
 
-A.menu {
+a.menu {
 	COLOR: #606d78;
 	TEXT-DECORATION: none;
 	border: none;

@@ -1,8 +1,17 @@
 <p>userlist works!</p>
 
 <table>
+    <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>surname</td>
+        <td>login</td>
+    </tr>
     <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
         <td>{{ user.name}}</td>
+        <td>{{ user.surname}}</td>
+        <td>{{ user.login}}</td>
     </tr>
 
 </table>
