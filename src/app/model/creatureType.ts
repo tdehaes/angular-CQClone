@@ -4,4 +4,6 @@ export interface creatureType{
     AD: number;
     DD: number;
     FD: number;
+    BaseHP: number;
+    BaseDmg: number;
 }

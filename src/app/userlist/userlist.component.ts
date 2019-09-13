@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { USERS } from '../../db-data'
 
 @Component({
   selector: 'app-userlist',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./userlist.component.css']
 })
 export class UserlistComponent implements OnInit {
+  users = USERS;
 
   constructor() { }
 
