@@ -8,6 +8,7 @@ import { LeftNavComponent } from './left-nav/left-nav.component';
 import { MidContentComponent } from './mid-content/mid-content.component';
 import { HelpContentComponent } from './help-content/help-content.component';
 import { NormalContentComponent } from './normal-content/normal-content.component';
+import { UserlistComponent } from './userlist/userlist.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NormalContentComponent } from './normal-content/normal-content.componen
     LeftNavComponent,
     MidContentComponent,
     HelpContentComponent,
-    NormalContentComponent
+    NormalContentComponent,
+    UserlistComponent
   ],
   imports: [
     BrowserModule
